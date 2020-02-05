@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.contact_log import ContactLog  # noqa: F401,E501
-from swagger_client.models.pagination_response import PaginationResponse  # noqa: F401,E501
+from mindbody_api.models.contact_log import ContactLog  # noqa: F401,E501
+from mindbody_api.models.pagination_response import PaginationResponse  # noqa: F401,E501
 
 
 class GetContactLogsResponse(object):

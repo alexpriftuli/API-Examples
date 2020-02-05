@@ -16,9 +16,9 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.autopay_schedule import AutopaySchedule  # noqa: F401,E501
-from swagger_client.models.contract_item import ContractItem  # noqa: F401,E501
-from swagger_client.models.membership_type_restriction import MembershipTypeRestriction  # noqa: F401,E501
+from mindbody_api.models.autopay_schedule import AutopaySchedule  # noqa: F401,E501
+from mindbody_api.models.contract_item import ContractItem  # noqa: F401,E501
+from mindbody_api.models.membership_type_restriction import MembershipTypeRestriction  # noqa: F401,E501
 
 
 class Contract(object):

@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.time_card_event import TimeCardEvent  # noqa: F401,E501
+from mindbody_api.models.time_card_event import TimeCardEvent  # noqa: F401,E501
 
 
 class TimeClockReport(object):

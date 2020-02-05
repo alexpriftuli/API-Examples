@@ -1,4 +1,4 @@
-# swagger_client.UserTokenApi
+# mindbody_api.UserTokenApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -17,13 +17,13 @@ Get a staff user token.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserTokenApi()
-request = swagger_client.IssueRequest() # IssueRequest | 
+api_instance = mindbody_api.UserTokenApi()
+request = mindbody_api.IssueRequest() # IssueRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 
@@ -69,12 +69,12 @@ Revokes the user token in the Authorization header.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.UserTokenApi()
+api_instance = mindbody_api.UserTokenApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )

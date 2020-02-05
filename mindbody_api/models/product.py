@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.color import Color  # noqa: F401,E501
-from swagger_client.models.size import Size  # noqa: F401,E501
+from mindbody_api.models.color import Color  # noqa: F401,E501
+from mindbody_api.models.size import Size  # noqa: F401,E501
 
 
 class Product(object):

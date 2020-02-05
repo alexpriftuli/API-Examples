@@ -16,9 +16,9 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.level import Level  # noqa: F401,E501
-from swagger_client.models.program import Program  # noqa: F401,E501
-from swagger_client.models.session_type import SessionType  # noqa: F401,E501
+from mindbody_api.models.level import Level  # noqa: F401,E501
+from mindbody_api.models.program import Program  # noqa: F401,E501
+from mindbody_api.models.session_type import SessionType  # noqa: F401,E501
 
 
 class ClassDescription(object):

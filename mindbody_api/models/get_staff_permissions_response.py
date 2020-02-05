@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.staff_permission_group import StaffPermissionGroup  # noqa: F401,E501
+from mindbody_api.models.staff_permission_group import StaffPermissionGroup  # noqa: F401,E501
 
 
 class GetStaffPermissionsResponse(object):

@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.contact_log_sub_type import ContactLogSubType  # noqa: F401,E501
+from mindbody_api.models.contact_log_sub_type import ContactLogSubType  # noqa: F401,E501
 
 
 class ContactLogType(object):

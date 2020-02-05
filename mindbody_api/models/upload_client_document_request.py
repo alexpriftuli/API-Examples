@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.client_document import ClientDocument  # noqa: F401,E501
+from mindbody_api.models.client_document import ClientDocument  # noqa: F401,E501
 
 
 class UploadClientDocumentRequest(object):

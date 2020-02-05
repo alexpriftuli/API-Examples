@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.resource import Resource  # noqa: F401,E501
+from mindbody_api.models.resource import Resource  # noqa: F401,E501
 
 
 class CheckoutAppointmentBookingRequest(object):

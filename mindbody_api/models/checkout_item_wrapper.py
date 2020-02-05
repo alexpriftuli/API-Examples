@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.checkout_appointment_booking_request import CheckoutAppointmentBookingRequest  # noqa: F401,E501
-from swagger_client.models.checkout_item import CheckoutItem  # noqa: F401,E501
+from mindbody_api.models.checkout_appointment_booking_request import CheckoutAppointmentBookingRequest  # noqa: F401,E501
+from mindbody_api.models.checkout_item import CheckoutItem  # noqa: F401,E501
 
 
 class CheckoutItemWrapper(object):

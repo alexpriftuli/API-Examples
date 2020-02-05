@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.location import Location  # noqa: F401,E501
-from swagger_client.models.program import Program  # noqa: F401,E501
+from mindbody_api.models.location import Location  # noqa: F401,E501
+from mindbody_api.models.program import Program  # noqa: F401,E501
 
 
 class ClientMembership(object):

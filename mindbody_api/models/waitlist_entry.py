@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.class_schedule import ClassSchedule  # noqa: F401,E501
-from swagger_client.models.client import Client  # noqa: F401,E501
+from mindbody_api.models.class_schedule import ClassSchedule  # noqa: F401,E501
+from mindbody_api.models.client import Client  # noqa: F401,E501
 
 
 class WaitlistEntry(object):

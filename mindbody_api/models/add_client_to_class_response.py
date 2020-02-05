@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.add_client_to_class_visit import AddClientToClassVisit  # noqa: F401,E501
+from mindbody_api.models.add_client_to_class_visit import AddClientToClassVisit  # noqa: F401,E501
 
 
 class AddClientToClassResponse(object):

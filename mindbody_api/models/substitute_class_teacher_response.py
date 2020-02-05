@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.substitute_teacher_class import SubstituteTeacherClass  # noqa: F401,E501
+from mindbody_api.models.substitute_teacher_class import SubstituteTeacherClass  # noqa: F401,E501
 
 
 class SubstituteClassTeacherResponse(object):

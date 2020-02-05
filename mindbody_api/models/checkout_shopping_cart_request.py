@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.checkout_item_wrapper import CheckoutItemWrapper  # noqa: F401,E501
-from swagger_client.models.checkout_payment_info import CheckoutPaymentInfo  # noqa: F401,E501
+from mindbody_api.models.checkout_item_wrapper import CheckoutItemWrapper  # noqa: F401,E501
+from mindbody_api.models.checkout_payment_info import CheckoutPaymentInfo  # noqa: F401,E501
 
 
 class CheckoutShoppingCartRequest(object):

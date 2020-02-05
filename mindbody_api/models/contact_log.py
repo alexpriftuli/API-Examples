@@ -16,10 +16,10 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.client import Client  # noqa: F401,E501
-from swagger_client.models.contact_log_comment import ContactLogComment  # noqa: F401,E501
-from swagger_client.models.contact_log_type import ContactLogType  # noqa: F401,E501
-from swagger_client.models.staff import Staff  # noqa: F401,E501
+from mindbody_api.models.client import Client  # noqa: F401,E501
+from mindbody_api.models.contact_log_comment import ContactLogComment  # noqa: F401,E501
+from mindbody_api.models.contact_log_type import ContactLogType  # noqa: F401,E501
+from mindbody_api.models.staff import Staff  # noqa: F401,E501
 
 
 class ContactLog(object):

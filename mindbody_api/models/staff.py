@@ -16,9 +16,9 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.appointment import Appointment  # noqa: F401,E501
-from swagger_client.models.availability import Availability  # noqa: F401,E501
-from swagger_client.models.unavailability import Unavailability  # noqa: F401,E501
+from mindbody_api.models.appointment import Appointment  # noqa: F401,E501
+from mindbody_api.models.availability import Availability  # noqa: F401,E501
+from mindbody_api.models.unavailability import Unavailability  # noqa: F401,E501
 
 
 class Staff(object):

@@ -16,14 +16,14 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.assigned_client_index import AssignedClientIndex  # noqa: F401,E501
-from swagger_client.models.client_credit_card import ClientCreditCard  # noqa: F401,E501
-from swagger_client.models.client_relationship import ClientRelationship  # noqa: F401,E501
-from swagger_client.models.custom_client_field_value import CustomClientFieldValue  # noqa: F401,E501
-from swagger_client.models.liability import Liability  # noqa: F401,E501
-from swagger_client.models.location import Location  # noqa: F401,E501
-from swagger_client.models.prospect_stage import ProspectStage  # noqa: F401,E501
-from swagger_client.models.sales_rep import SalesRep  # noqa: F401,E501
+from mindbody_api.models.assigned_client_index import AssignedClientIndex  # noqa: F401,E501
+from mindbody_api.models.client_credit_card import ClientCreditCard  # noqa: F401,E501
+from mindbody_api.models.client_relationship import ClientRelationship  # noqa: F401,E501
+from mindbody_api.models.custom_client_field_value import CustomClientFieldValue  # noqa: F401,E501
+from mindbody_api.models.liability import Liability  # noqa: F401,E501
+from mindbody_api.models.location import Location  # noqa: F401,E501
+from mindbody_api.models.prospect_stage import ProspectStage  # noqa: F401,E501
+from mindbody_api.models.sales_rep import SalesRep  # noqa: F401,E501
 
 
 class AddClientRequest(object):

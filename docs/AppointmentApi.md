@@ -1,4 +1,4 @@
-# swagger_client.AppointmentApi
+# mindbody_api.AppointmentApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -24,13 +24,13 @@ To book an appointment, you must use a location ID, staff ID, client ID, session
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AppointmentApi()
-request = swagger_client.AddAppointmentRequest() # AddAppointmentRequest | 
+api_instance = mindbody_api.AppointmentApi()
+request = mindbody_api.AddAppointmentRequest() # AddAppointmentRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -78,12 +78,12 @@ Returns a list of the times that can be booked for a given program schedule type
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AppointmentApi()
+api_instance = mindbody_api.AppointmentApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -142,12 +142,12 @@ This endpoint has no query parameters.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AppointmentApi()
+api_instance = mindbody_api.AppointmentApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -194,12 +194,12 @@ Returns a list of availabilities with the information needed to book appointment
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AppointmentApi()
+api_instance = mindbody_api.AppointmentApi()
 request_session_type_ids = [56] # list[int] | A list of the requested session type IDs.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -264,12 +264,12 @@ Returns a list of schedule items, including appointments, availabilities, and un
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AppointmentApi()
+api_instance = mindbody_api.AppointmentApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -330,12 +330,12 @@ Returns a list of appointments by staff member.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AppointmentApi()
+api_instance = mindbody_api.AppointmentApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -398,13 +398,13 @@ To update the information for a specific appointment, you must have a staff user
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AppointmentApi()
-request = swagger_client.UpdateAppointmentRequest() # UpdateAppointmentRequest | 
+api_instance = mindbody_api.AppointmentApi()
+request = mindbody_api.UpdateAppointmentRequest() # UpdateAppointmentRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )

@@ -1,4 +1,4 @@
-# swagger_client.SaleApi
+# mindbody_api.SaleApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -28,13 +28,13 @@ This endpoint provides a wide range of functionality. For example, you can use i
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
-request = swagger_client.CheckoutShoppingCartRequest() # CheckoutShoppingCartRequest | 
+api_instance = mindbody_api.SaleApi()
+request = mindbody_api.CheckoutShoppingCartRequest() # CheckoutShoppingCartRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -82,12 +82,12 @@ Gets a list of card types that the site accepts. You can also use `GET Sites` to
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
+api_instance = mindbody_api.SaleApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -132,12 +132,12 @@ Get contracts available for purchase at a site.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
+api_instance = mindbody_api.SaleApi()
 request_location_id = 56 # int | The ID of the location that has the requested contracts and AutoPay options.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -194,12 +194,12 @@ Get payment methods that can be used to pay for sales at a site.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
+api_instance = mindbody_api.SaleApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -248,12 +248,12 @@ Get gift cards available for purchase at a site.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
+api_instance = mindbody_api.SaleApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -310,12 +310,12 @@ A package is typically used to combine multiple services and/or products into a 
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
+api_instance = mindbody_api.SaleApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -368,12 +368,12 @@ Get retail products available for purchase at a site.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
+api_instance = mindbody_api.SaleApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -434,12 +434,12 @@ Get sales completed at a site.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
+api_instance = mindbody_api.SaleApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -484,12 +484,12 @@ Get pricing options available for purchase at a site
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
+api_instance = mindbody_api.SaleApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -558,13 +558,13 @@ Allows a client to sign up for a contract or autopay using the information retur
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
-request = swagger_client.PurchaseContractRequest() # PurchaseContractRequest | 
+api_instance = mindbody_api.SaleApi()
+request = mindbody_api.PurchaseContractRequest() # PurchaseContractRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -612,13 +612,13 @@ Allows a client to purchase a gift card from a business in a variety of designs.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.SaleApi()
-request = swagger_client.PurchaseGiftCardRequest() # PurchaseGiftCardRequest | 
+api_instance = mindbody_api.SaleApi()
+request = mindbody_api.PurchaseGiftCardRequest() # PurchaseGiftCardRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )

@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.custom_payment_method import CustomPaymentMethod  # noqa: F401,E501
-from swagger_client.models.pagination_response import PaginationResponse  # noqa: F401,E501
+from mindbody_api.models.custom_payment_method import CustomPaymentMethod  # noqa: F401,E501
+from mindbody_api.models.pagination_response import PaginationResponse  # noqa: F401,E501
 
 
 class GetCustomPaymentMethodsResponse(object):

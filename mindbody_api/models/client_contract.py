@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.upcoming_autopay_event import UpcomingAutopayEvent  # noqa: F401,E501
+from mindbody_api.models.upcoming_autopay_event import UpcomingAutopayEvent  # noqa: F401,E501
 
 
 class ClientContract(object):

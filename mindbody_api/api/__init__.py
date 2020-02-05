@@ -3,12 +3,12 @@ from __future__ import absolute_import
 # flake8: noqa
 
 # import apis into api package
-from swagger_client.api.appointment_api import AppointmentApi
-from swagger_client.api.class_api import ClassApi
-from swagger_client.api.client_api import ClientApi
-from swagger_client.api.enrollment_api import EnrollmentApi
-from swagger_client.api.payroll_api import PayrollApi
-from swagger_client.api.sale_api import SaleApi
-from swagger_client.api.site_api import SiteApi
-from swagger_client.api.staff_api import StaffApi
-from swagger_client.api.user_token_api import UserTokenApi
+from mindbody_api.api.appointment_api import AppointmentApi
+from mindbody_api.api.class_api import ClassApi
+from mindbody_api.api.client_api import ClientApi
+from mindbody_api.api.enrollment_api import EnrollmentApi
+from mindbody_api.api.payroll_api import PayrollApi
+from mindbody_api.api.sale_api import SaleApi
+from mindbody_api.api.site_api import SiteApi
+from mindbody_api.api.staff_api import StaffApi
+from mindbody_api.api.user_token_api import UserTokenApi

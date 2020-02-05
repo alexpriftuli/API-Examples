@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.model_class import ModelClass  # noqa: F401,E501
-from swagger_client.models.pagination_response import PaginationResponse  # noqa: F401,E501
+from mindbody_api.models.model_class import ModelClass  # noqa: F401,E501
+from mindbody_api.models.pagination_response import PaginationResponse  # noqa: F401,E501
 
 
 class GetClassesResponse(object):

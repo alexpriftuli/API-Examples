@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.credit_card_info import CreditCardInfo  # noqa: F401,E501
-from swagger_client.models.stored_card_info import StoredCardInfo  # noqa: F401,E501
+from mindbody_api.models.credit_card_info import CreditCardInfo  # noqa: F401,E501
+from mindbody_api.models.stored_card_info import StoredCardInfo  # noqa: F401,E501
 
 
 class PurchaseContractRequest(object):

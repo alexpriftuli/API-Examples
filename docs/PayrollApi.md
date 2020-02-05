@@ -1,4 +1,4 @@
-# swagger_client.PayrollApi
+# mindbody_api.PayrollApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -19,12 +19,12 @@ A staff authorization token is not required for this endpoint, but if one is pas
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PayrollApi()
+api_instance = mindbody_api.PayrollApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -81,12 +81,12 @@ Get time card payroll for staff members.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.PayrollApi()
+api_instance = mindbody_api.PayrollApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )

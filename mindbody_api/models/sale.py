@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.purchased_item import PurchasedItem  # noqa: F401,E501
-from swagger_client.models.sale_payment import SalePayment  # noqa: F401,E501
+from mindbody_api.models.purchased_item import PurchasedItem  # noqa: F401,E501
+from mindbody_api.models.sale_payment import SalePayment  # noqa: F401,E501
 
 
 class Sale(object):

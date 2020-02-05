@@ -1,4 +1,4 @@
-# swagger_client.StaffApi
+# mindbody_api.StaffApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -17,12 +17,12 @@ Get staff members at a site.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.StaffApi()
+api_instance = mindbody_api.StaffApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -81,12 +81,12 @@ Get configured staff permissions for a staff member.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.StaffApi()
+api_instance = mindbody_api.StaffApi()
 request_staff_id = 789 # int | The ID of the staff member whose permissions you want to return.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 

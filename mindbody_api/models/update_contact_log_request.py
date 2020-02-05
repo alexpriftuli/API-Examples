@@ -16,8 +16,8 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.update_contact_log_comment import UpdateContactLogComment  # noqa: F401,E501
-from swagger_client.models.update_contact_log_type import UpdateContactLogType  # noqa: F401,E501
+from mindbody_api.models.update_contact_log_comment import UpdateContactLogComment  # noqa: F401,E501
+from mindbody_api.models.update_contact_log_type import UpdateContactLogType  # noqa: F401,E501
 
 
 class UpdateContactLogRequest(object):

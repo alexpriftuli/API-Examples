@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.sale import Sale  # noqa: F401,E501
+from mindbody_api.models.sale import Sale  # noqa: F401,E501
 
 
 class ClientPurchaseRecord(object):

@@ -16,7 +16,7 @@ import re  # noqa: F401
 
 import six
 
-from swagger_client.models.appointment import Appointment  # noqa: F401,E501
+from mindbody_api.models.appointment import Appointment  # noqa: F401,E501
 
 
 class AddAppointmentResponse(object):

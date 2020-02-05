@@ -23,7 +23,7 @@ pip install git+https://github.com/GIT_USER_ID/GIT_REPO_ID.git
 
 Then import the package:
 ```python
-import swagger_client 
+import mindbody_api 
 ```
 
 ### Setuptools
@@ -37,7 +37,7 @@ python setup.py install --user
 
 Then import the package:
 ```python
-import swagger_client
+import mindbody_api
 ```
 
 ## Getting Started
@@ -47,13 +47,13 @@ Please follow the [installation procedure](#installation--usage) and then run th
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import mindbody_api
+from mindbody_api.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.AppointmentApi(swagger_client.ApiClient(configuration))
-request = swagger_client.AddAppointmentRequest() # AddAppointmentRequest | 
+api_instance = mindbody_api.AppointmentApi(mindbody_api.ApiClient(configuration))
+request = mindbody_api.AddAppointmentRequest() # AddAppointmentRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
