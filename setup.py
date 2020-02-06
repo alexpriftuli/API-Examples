@@ -1,13 +1,13 @@
-from distutils.core import setup
+from setuptools import setup
 
 
 setup(
     name="mindbody_api",
     packages=["mindbody_api"],
-    version="1.0.0",
+    version="1.0.1",
     author_email="mmgladki@gmail.com",
     url="https://github.com/mgladki/API-Examples",
-    download_url="https://github.com/mgladki/API-Examples/archive/1.0.0.tar.gz",
+    download_url="https://github.com/mgladki/API-Examples/archive/1.0.1.tar.gz",
     keywords=["Swagger", "MINDBODY Public API"],
     install_requires=[
         "certifi>=2017.4.17",

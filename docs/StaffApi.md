@@ -1,4 +1,4 @@
-# mindbody_api.StaffApi
+# StaffApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -18,11 +18,11 @@ Get staff members at a site.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.StaffApi()
+api_instance = StaffApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -82,11 +82,11 @@ Get configured staff permissions for a staff member.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.StaffApi()
+api_instance = StaffApi()
 request_staff_id = 789 # int | The ID of the staff member whose permissions you want to return.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 

@@ -1,4 +1,4 @@
-# mindbody_api.EnrollmentApi
+# EnrollmentApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -18,12 +18,12 @@ Book a client into an enrollment.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.EnrollmentApi()
-request = mindbody_api.AddClientToEnrollmentRequest() # AddClientToEnrollmentRequest | 
+api_instance = EnrollmentApi()
+request = AddClientToEnrollmentRequest() # AddClientToEnrollmentRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -72,11 +72,11 @@ Returns a list of enrollments. An enrollment is a service, such as a workshop or
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.EnrollmentApi()
+api_instance = EnrollmentApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )

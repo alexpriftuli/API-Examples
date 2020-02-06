@@ -1,4 +1,4 @@
-# mindbody_api.UserTokenApi
+# UserTokenApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -18,12 +18,12 @@ Get a staff user token.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.UserTokenApi()
-request = mindbody_api.IssueRequest() # IssueRequest | 
+api_instance = UserTokenApi()
+request = IssueRequest() # IssueRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 
@@ -70,11 +70,11 @@ Revokes the user token in the Authorization header.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.UserTokenApi()
+api_instance = UserTokenApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )

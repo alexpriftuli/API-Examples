@@ -1,4 +1,4 @@
-# mindbody_api.ClassApi
+# ClassApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -27,12 +27,12 @@ This endpoint adds a client to a class or to a class waiting list. It is helpful
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClassApi()
-request = mindbody_api.AddClientToClassRequest() # AddClientToClassRequest | 
+api_instance = ClassApi()
+request = AddClientToClassRequest() # AddClientToClassRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -81,11 +81,11 @@ To find class descriptions associated with **scheduled classes**, pass `StaffId`
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClassApi()
+api_instance = ClassApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -147,11 +147,11 @@ Get class schedules.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClassApi()
+api_instance = ClassApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -217,11 +217,11 @@ Returns a list of visits that contain information for a specified class. On succ
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClassApi()
+api_instance = ClassApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -271,11 +271,11 @@ Get scheduled classes.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClassApi()
+api_instance = ClassApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -353,11 +353,11 @@ Returns a list of waiting list entries for a specified class schedule or class. 
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClassApi()
+api_instance = ClassApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -417,12 +417,12 @@ Remove a client from a class.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClassApi()
-request = mindbody_api.RemoveClientFromClassRequest() # RemoveClientFromClassRequest | 
+api_instance = ClassApi()
+request = RemoveClientFromClassRequest() # RemoveClientFromClassRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -471,11 +471,11 @@ This endpoint does not return a response. If a call to this endpoint results in 
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClassApi()
+api_instance = ClassApi()
 request_waitlist_entry_ids = [56] # list[int] | A list of waiting list IDs to remove from waiting lists.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -523,12 +523,12 @@ Substitute a class teacher.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClassApi()
-request = mindbody_api.SubstituteClassTeacherRequest() # SubstituteClassTeacherRequest | 
+api_instance = ClassApi()
+request = SubstituteClassTeacherRequest() # SubstituteClassTeacherRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )

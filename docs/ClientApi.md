@@ -1,4 +1,4 @@
-# mindbody_api.ClientApi
+# ClientApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -40,12 +40,12 @@ Add an arrival for a client.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
-request = mindbody_api.AddArrivalRequest() # AddArrivalRequest | 
+api_instance = ClientApi()
+request = AddArrivalRequest() # AddArrivalRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -94,12 +94,12 @@ The `FirstName` and `LastName` parameters are always required in this request. A
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
-request = mindbody_api.AddClientRequest() # AddClientRequest | 
+api_instance = ClientApi()
+request = AddClientRequest() # AddClientRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -146,12 +146,12 @@ Add a contact log to a client's account.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
-request = mindbody_api.AddContactLogRequest() # AddContactLogRequest | 
+api_instance = ClientApi()
+request = AddContactLogRequest() # AddContactLogRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -198,11 +198,11 @@ Get a client's active memberships.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 request_client_id = 'request_client_id_example' # str | The ID of the client whose membership was requested.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -256,11 +256,11 @@ Get account balance information for one or more client(s).
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 request_client_ids = ['request_client_ids_example'] # list[str] | The list of clients IDs for which you want account balances.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -316,11 +316,11 @@ Get contracts that a client has purchased.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 request_client_id = 'request_client_id_example' # str | The ID of the client.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -376,11 +376,11 @@ Get a client's formula notes.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -436,11 +436,11 @@ Client indexes are used to analyze client demographics. A business owner can set
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -488,11 +488,11 @@ Get a client's purchase history.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 request_client_id = 'request_client_id_example' # str | The ID of the client you are querying for purchases.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -552,11 +552,11 @@ Gets a list of referral types. Referral types are options that new clients can c
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -604,11 +604,11 @@ Get pricing options that a client has purchased.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 request_client_id = 'request_client_id_example' # str | The ID of the client to query. The results are a list of pricing options that the client has purchased. Note that “service” and “pricing option” are synonymous in this section of the documentation.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -680,11 +680,11 @@ Get a client's visit history.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 request_client_id = 'request_client_id_example' # str | The ID of the requested client.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -746,11 +746,11 @@ Get clients.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -810,11 +810,11 @@ This endpoint contains a variety of filters that can return not just all contact
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 request_client_id = 'request_client_id_example' # str | The ID of the client whose contact logs are being requested.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -880,11 +880,11 @@ Returns a list of sites that a particular client ID (also referred to as an RSSI
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -938,11 +938,11 @@ Get a site's configured custom client fields.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -994,11 +994,11 @@ Gets the list of fields that a new client has to fill out in business mode, spec
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
+api_instance = ClientApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -1044,12 +1044,12 @@ Send a password reset email to a client.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
-request = mindbody_api.SendPasswordResetEmailRequest() # SendPasswordResetEmailRequest | 
+api_instance = ClientApi()
+request = SendPasswordResetEmailRequest() # SendPasswordResetEmailRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -1098,12 +1098,12 @@ Updates an existing client for a specific subscriber. Use this endpoint as follo
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
-request = mindbody_api.UpdateClientRequest() # UpdateClientRequest | 
+api_instance = ClientApi()
+request = UpdateClientRequest() # UpdateClientRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -1152,12 +1152,12 @@ Updates the active date and/or expiration date of a client pricing option. This 
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
-request = mindbody_api.UpdateClientServiceRequest() # UpdateClientServiceRequest | 
+api_instance = ClientApi()
+request = UpdateClientServiceRequest() # UpdateClientServiceRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -1204,12 +1204,12 @@ Update a client's visit.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
-request = mindbody_api.UpdateClientVisitRequest() # UpdateClientVisitRequest | 
+api_instance = ClientApi()
+request = UpdateClientVisitRequest() # UpdateClientVisitRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -1256,12 +1256,12 @@ Update a contact log on a client's account.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
-request = mindbody_api.UpdateContactLogRequest() # UpdateContactLogRequest | 
+api_instance = ClientApi()
+request = UpdateContactLogRequest() # UpdateContactLogRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -1310,12 +1310,12 @@ Returns a string representation of the image byte array. The maximum document si
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
-request = mindbody_api.UploadClientDocumentRequest() # UploadClientDocumentRequest | 
+api_instance = ClientApi()
+request = UploadClientDocumentRequest() # UploadClientDocumentRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -1364,12 +1364,12 @@ The maximum file size is 4 MB and acceptable file types are:  * bmp  * jpeg  * g
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.ClientApi()
-request = mindbody_api.UploadClientPhotoRequest() # UploadClientPhotoRequest | 
+api_instance = ClientApi()
+request = UploadClientPhotoRequest() # UploadClientPhotoRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )

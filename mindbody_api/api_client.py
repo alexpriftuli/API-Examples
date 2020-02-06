@@ -24,7 +24,7 @@ import six
 from six.moves.urllib.parse import quote
 
 from mindbody_api.configuration import Configuration
-import mindbody_api.models
+from mindbody_api import models
 from mindbody_api import rest
 
 
@@ -266,7 +266,7 @@ class ApiClient(object):
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(mindbody_api.models, klass)
+                klass = getattr(models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

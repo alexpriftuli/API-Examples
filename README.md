@@ -48,12 +48,12 @@ Please follow the [installation procedure](#installation--usage) and then run th
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.AppointmentApi(mindbody_api.ApiClient(configuration))
-request = mindbody_api.AddAppointmentRequest() # AddAppointmentRequest | 
+api_instance = AppointmentApi(ApiClient(configuration))
+request = AddAppointmentRequest() # AddAppointmentRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )

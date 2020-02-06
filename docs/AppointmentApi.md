@@ -1,4 +1,4 @@
-# mindbody_api.AppointmentApi
+# AppointmentApi
 
 All URIs are relative to *https://api.mindbodyonline.com*
 
@@ -25,12 +25,12 @@ To book an appointment, you must use a location ID, staff ID, client ID, session
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.AppointmentApi()
-request = mindbody_api.AddAppointmentRequest() # AddAppointmentRequest | 
+api_instance = AppointmentApi()
+request = AddAppointmentRequest() # AddAppointmentRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -79,11 +79,11 @@ Returns a list of the times that can be booked for a given program schedule type
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.AppointmentApi()
+api_instance = AppointmentApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -143,11 +143,11 @@ This endpoint has no query parameters.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.AppointmentApi()
+api_instance = AppointmentApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -195,11 +195,11 @@ Returns a list of availabilities with the information needed to book appointment
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.AppointmentApi()
+api_instance = AppointmentApi()
 request_session_type_ids = [56] # list[int] | A list of the requested session type IDs.
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
@@ -265,11 +265,11 @@ Returns a list of schedule items, including appointments, availabilities, and un
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.AppointmentApi()
+api_instance = AppointmentApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -331,11 +331,11 @@ Returns a list of appointments by staff member.
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.AppointmentApi()
+api_instance = AppointmentApi()
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
@@ -399,12 +399,12 @@ To update the information for a specific appointment, you must have a staff user
 from __future__ import print_function
 import time
 import mindbody_api
-from mindbody_api.rest import ApiException
+from rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = mindbody_api.AppointmentApi()
-request = mindbody_api.UpdateAppointmentRequest() # UpdateAppointmentRequest | 
+api_instance = AppointmentApi()
+request = UpdateAppointmentRequest() # UpdateAppointmentRequest | 
 site_id = 'site_id_example' # str | ID of the site from which to pull data.
 version = 'version_example' # str | 
 authorization = '' # str | A staff user authorization token. (optional) (default to )
