@@ -144,6 +144,7 @@ class ApiClient(object):
                                                     collection_formats)
 
         # auth setting
+        auth_settings = ["Api-Key"]
         self.update_params_for_auth(header_params, query_params, auth_settings)
 
         # body
